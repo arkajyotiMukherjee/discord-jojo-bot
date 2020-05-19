@@ -1,0 +1,23 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "a random test bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "jojo"
+  ],
+  "author": "PajamaGuy",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.0.0",
+    "unique-names-generator": "^4.2.0"
+  }
+}
