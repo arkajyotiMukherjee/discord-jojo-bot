@@ -49,4 +49,9 @@ client.on('message', (message) => {
   }
 });
 
+// Handling errors
+process.on('unhandledRejection', (error) => {
+  console.error('Unhandled promise rejection:', error);
+});
+
 client.login(process.env.BOT_TOKEN);
